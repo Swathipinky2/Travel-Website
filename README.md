@@ -4,9 +4,6 @@ Welcome to the Travelty website repository!
 
 This website was created using HTML and CSS. It showcases beautiful destinations, exclusive offers, services, client testimonials, and a newsletter signup.
 
-## Live Website
-You can visit the live website [here](<insert_live_website_link>).
-
 ## Features
 - Home page with stunning imagery and navigation
 - Exclusive offers section with booking option
