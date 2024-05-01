@@ -12,7 +12,7 @@ This website was created using HTML and CSS. It showcases beautiful destinations
 - Newsletter signup for regular updates
 
 ## Live Demo
-Check out the live demo of the website [here](https://your-live-demo-url.com).
+Check out the live demo of the website [here](https://swathipinky2.github.io/Travelty-website/).
 
 ## Technologies Used
 - HTML
