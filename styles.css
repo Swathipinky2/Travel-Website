@@ -9,22 +9,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.HomePage {
-  background-image: url(assets/header.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-}
-
-#nav-bar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 30px;
-}
-
+/* General Styles */
 .logo {
   font-size: 24px;
   color: white;
@@ -58,343 +43,151 @@ ul li a:hover {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 64px;
-  color: white;
-  margin: 200px 0 0 150px;
-  line-height: 5rem;
-}
-
-/* offer page */
-
-.OfferPage {
-  display: flex;
-  align-items: center;
-  padding: 100px;
-  margin-bottom: -60px;
-}
-
-.offerImg {
-  width: 400px;
-  height: 500px;
-  margin-left: 100px;
-}
-
-.right-section {
-  margin-left: 100px;
-}
-
-.right-section h3 {
-  font-size: 18px;
-  color: rgb(27, 154, 196);
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.right-section h2 {
-  font-size: 40px;
-  color: rgba(0, 0, 0, 0.868);
-}
-
-.right-section p {
-  color: gray;
-  font-size: 19px;
-  margin-top: 10px;
-}
-
-.time {
-  font-size: 20px;
-  margin-top: 10px;
-  color: rgba(38, 24, 24, 0.877);
-}
-
-.rating {
-  width: 100px;
-  height: 30px;
-  margin-top: 10px;
-}
-
-.bookNowbtn {
-  width: 120px;
-  height: 45px;
-  background-color: rgb(49, 49, 181);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 0;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.price {
-  font-size: 25px;
-  color: rgb(8, 144, 189);
-  margin-left: 10px;
-  font-weight: bold;
-}
-
-
-/* Servicepage  */
-.ServicePage {
-  padding: 100px;
-}
-
-.details {
-  margin-left: 60px;
-}
-
-.details h3 {
-  font-size: 19px;
-  color: rgb(34, 34, 189);
-  margin-bottom: 15px;
-}
-
-.details h2 {
-  font-size: 33px;
-  margin-bottom: 40px;
-  color: rgba(29, 22, 22, 0.743);
-}
-
-#services {
-  display: flex;
-  gap: 2rem;
-  margin: 10px 60px 40px 60px;
-}
-
-.service {
-  height: 610px; 
-  width: 100%; 
-  flex: 1fr;
-  border-radius: 5px;
-}
-
-.service:hover {
-  background-color: rgba(211, 211, 211, 0.409);
-  cursor: pointer;
-}
-
-
-.service-content {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-.serviceImg {
+/* Home Page */
+.HomePage {
+  background-image: url(assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   width: 100%;
 }
 
-.service-content h3 {
-  font-size: 23px;
-  color: rgba(5, 4, 4, 0.915);
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.service-content span {
-  font-size: 18px;
-  color: gray;
-}
-
-.service-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.service-content img {
- width: 120px;
-}
-
-.service-content .service-price {
-  font-size: 19px;
-  color: rgba(8, 8, 250, 0.618);
-  font-weight: bold;
-}
-
-.ClientPage {
+#nav-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 100px;
-  margin-top: -150px;
+  padding-top: 30px;
 }
 
-.left h3 {
-  font-size: 20px;
-  color: rgba(0, 0, 255, 0.857);
-  margin-bottom: 10px;
+/* Offer Page */
+.OfferPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
 }
 
-.left h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
+.offerImg {
+  width: 100%;
+  max-width: 400px;
 }
 
-.left p {
-  color: gray;
-  margin-bottom: 30px;
+/* Service Page */
+.ServicePage {
+  padding: 50px 20px;
+}
+
+.details {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Client Page */
+.ClientPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
 }
 
 .userInfo {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-.userInfo div {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .user {
-  width: 60px;
-  border-radius: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
-.userName {
-  color: rgba(0, 0, 255, 0.857);
-  font-weight: bold;
-}
-
-.userOccupation {
-  font-size: 14px;
-  color: gray;
-}
-
-.arrow {
-  width: 30px;
-  height: 30px;
-  background-color: gray;
-  color: white;
-  margin-right: 5px;
-  cursor: pointer;
-  border: none;
-}
-
-.arrow:hover {
-  background-color: rgba(0, 0, 255, 0.693);
-}
-
-.ClientImg {
-  width: 350px;
-  height: 500px;
-  margin-right: 100px;
-}
-
-
-/* Contact page  */
+/* Contact Page */
 .contactPage {
   display: flex;
-  justify-content: center;
-  padding: 100px;
-  margin-top: -100px;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
 }
 
 .container {
-  width: 800px;
-  height: 300px;
-  background-color: rgb(15, 15, 143);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.container h2 {
-  font-size: 35px;
-  font-weight: bold;
-  color: white;
-}
-
-.container p {
-  color: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
 }
 
 .container input {
-  width: 420px;
-  height: 40px;
-  border: none;
-  background-color: white;
-  color: gray;
-  font-size: 15px;
-  margin-right: 80px;
-  padding: 10px;
-  border-radius: 5px;
+  width: calc(100% - 200px);
 }
 
 .container button {
-  width: 90px;
-  height: 35px;
-  border: none;
-  background-color: rgb(15, 15, 143);
-  color: white;
-  font-weight: bold;
-  margin-left: -173px;
-  border-radius: 5px;
+  width: 120px;
 }
 
-.images {
-  margin-bottom: 60px;
-}
+/* Responsive Media Queries */
+@media only screen and (min-width: 768px) {
+  ul {
+    gap: 3rem;
+  }
 
-.images-slides {
-  width: 300px;
-  height: 350px;
-  border-radius: 5px;
-  margin-left: 10px;
-}
+  .btn {
+    width: 120px;
+  }
 
-.contactInfo {
-  padding: 100px;
-  width: 100%;
-  background-color: rgba(211, 211, 211, 0.218);
-}
+  .HomePage h1 {
+    margin: 200px 0 0 150px;
+    font-size: 64px;
+    line-height: 5rem;
+  }
 
+  .OfferPage {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
+  .OfferPage .right-section {
+    margin-left: 0;
+    max-width: 500px;
+    width: 50%;
+  }
 
-.information {
-  display: flex;
-  gap: 8%;
-  justify-content: center;
-  margin-top: -30px;
-}
+  .OfferPage .offerImg {
+    margin-left: 0;
+    max-width: 400px;
+    width: 50%;
+  }
 
-.Travelty,
-.QuickLinks,
-.Company,
-.ContactUs {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
+  .ServicePage {
+    padding: 50px;
+  }
 
-.Travelty h3,
-.QuickLinks h3,
-.Company h3,
-.ContactUs h3 {
-  color: rgba(0, 0, 255, 0.718);
-  font-size: 24px;
-}
+  .ServicePage .details {
+    margin-left: 0;
+    text-align: left;
+  }
 
-.Travelty p , 
-.QuickLinks p, 
-.Company p,
-.ContactUs p{
-  color: gray;
-  font-size: 15px;
-  letter-spacing: 1.5px;
-}
+  .ClientPage {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.Copyright {
-  display: flex;
-  justify-content: center;
-  margin-top: 90px;
-  margin-bottom: -80px;
-  font-size: 14px;
-  color: gray;
+  .ClientPage .left,
+  .ClientPage .right {
+    width: 50%;
+  }
+
+  .ClientPage .left h2 {
+    margin-bottom: 30px;
+  }
+
+  .ClientPage .userInfo {
+    flex-direction: row;
+  }
+
+  .ClientPage .userInfo div {
+    margin-right: 20px;
+  }
+
+  .contactPage .container input {
+    width: 420px;
+  }
 }
